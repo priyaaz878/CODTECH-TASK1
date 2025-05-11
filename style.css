@@ -1,0 +1,251 @@
+/* Reset some basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General body styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+  }
+ 
+header {
+	
+	color: #FFFFFF;
+	padding: 20px;
+}
+
+nav {
+	display: inline-block;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav li a {
+	color: #000;
+	text-decoration: none;
+	font-size: 18px;
+}
+.hero {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.hero h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+	line-height: 1.2;
+}
+
+.hero p {
+	font-size: 24px;
+	color: #000;
+	margin-bottom: 40px;
+    
+}
+h3{
+    text-align: center;
+}
+
+.hero button {
+	background-color: #4CAF50;
+	color: #FFFFFF;
+	border: none;
+	padding: 15px 30px;
+	font-size: 18px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.hero button:hover {
+	background-color: #3E8E41;
+}
+  /* Main sections */
+  main {
+    padding: 20px;
+  }
+  
+  /* Sections styling */
+  section {
+    margin-bottom: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Video */
+  video {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 10px auto;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  button:hover {
+    background-color: #218838;
+  }
+  main {
+      padding: 50px;
+  }
+  
+  section {
+      margin-bottom: 50px;
+  }
+  
+  section h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      text-align: center;
+  }
+  
+  #quiz{
+    display:block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+  
+  .card {
+      width: 30%;
+      background-color: #FFFFFF;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin-bottom: 20px;
+      transition: all 0.3s ease;
+  }
+  
+  .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+  }
+  
+  .card h3 {
+      font-size: 24px;
+      margin: 10px 0;
+  }
+  
+  .card p {
+      font-size: 18px;
+      color: #666666;
+      margin-bottom: 10px;
+  }
+  
+  .card button {
+      background-color: #4CAF50;
+      color: #FFFFFF;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+  }
+  
+  .card button:hover {
+      background-color: #3E8E41;
+  }
+  
+  .categories {
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .category {
+      width: 30%;
+      background-color: #FFFFFF;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin-bottom: 20px;
+      transition: all 0.3s ease;
+  }
+  
+  .category:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .category img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+  }
+  
+  .category h3 {
+      font-size: 24px;
+      margin: 10px 0;
+  }
+  
+  .category p {
+      font-size: 18px;
+      color: #666666;
+      margin-bottom: 10px;
+  }
+  /* Progress Bar Styling */
+#progressBarContainer {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 25px;
+    margin: 15px 0;
+  }
+  
+  #progressBar {
+    height: 100%;
+    width: 0%;
+    background-color: #28a745;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  
+  footer {
+      background-color: #fff;
+    text-align: center;
+    font-size:20px ;}
+    .social-icons
+    {
+      padding-left:0;
+      margin-bottom:0;
+      list-style:none
+    }
+    .social-icons li
+    {
+      display:inline-block;
+      margin-bottom:4px
+    }
+   
+   
